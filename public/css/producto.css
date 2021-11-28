@@ -1,0 +1,191 @@
+/*ESTILO PARA COLOCAR EN NUESTRO MENU*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: #181515;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+header{
+    font-family: cursive;
+    width: 970PX;
+    margin: 0 auto;
+}
+ul{
+    list-style:none;
+}
+#menu li>a{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    padding: 25PX;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    display:block;
+    text-decoration:none;
+    min-width: 100px;
+}
+#menu li>a:hover{
+    color: black;
+    background-color: wheat;
+}
+#menu>li{
+    float: LEFT;
+    text-align: CENTER;
+    font-size:1.9em;
+    font-family: monospace;
+}
+
+footer{
+    width: 100%;
+    background: #000000;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    height: 70px;
+}
+.container-body{
+    display: flex;
+}
+footer img{
+    padding-left: 80px;
+    padding-top: 05px;
+}
+
+#menu{
+    padding-top: 0.1px;
+    padding-left: 50px;
+}
+
+
+/*titulo*/
+.titulo h1{
+    font-family: monospace;
+    font-size: 45px;
+    color: #d90012;
+    text-shadow: 6px 10px 0px rgba(0, 0, 0, 0.7);
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.titulo h2{
+    font-family: monospace;
+    font-size: 25px;
+    color: #1f9906;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+
+
+
+/**/
+/*prueba carrucel*/
+.contenedor {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+    padding-top: 40px;
+}
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 15px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #fff;
+	opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -30px;
+}
+
+.carousel__siguiente {
+	right: -30px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	opacity: .2;
+	border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding: 40px 0;
+	}
+
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+}
+/*.carousel__elemento img{
+
+    z-index: -1;
+}*/
+
+.subtitulo {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    display: inline;
+    background: black;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.sabor { 
+    color: rgb(148, 5, 29);
+    margin: 7px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}

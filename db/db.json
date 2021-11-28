@@ -1,0 +1,40 @@
+{
+    "nuevo-usuario": [
+        {
+            "id": 123456789,
+            "nombre": "Alfonso Gutierrez",
+            "producto": "mascarilla",
+            "Precio": 65
+        },
+        {
+            "id": 123456789,
+            "nombre": "Franco Pizarro",
+            "producto": "protector",
+            "Precio": 54
+        },
+        {
+            "id": 123456789,
+            "nombre": "Anny Fernandez",
+            "producto": "purificador",
+            "Precio": 65
+        },
+        {
+            "id": 123456789,
+            "nombre": "Dan Morales",
+            "producto": "protector",
+            "Precio": 43
+        },
+        {
+            "id": 123456789,
+            "nombre": "Alicia Valenzuela",
+            "producto": "purificador",
+            "Precio": 48
+        },
+        {
+            "id": 123456789,
+            "nombre": "Gian Carlos",
+            "producto": "mascarilla",
+            "Precio": 66
+        }
+    ]
+}
